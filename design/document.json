@@ -1,0 +1,81 @@
+{
+  "root" : {
+    "__class" : "RootNode",
+    "children" : [
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0.66798418972332019,
+        "centerAnchorY" : 0.50343249427917625,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/LivePreviewTarget.tsx_LivePreviewTarget",
+        "codeComponentProps" : {
+          "prototypeIdentifier" : "my-project",
+          "proxyServerHost" : "http:\/\/localhost:8080",
+          "showInstructions" : true
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillImage" : null,
+        "fillImageOriginalName" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 250,
+        "heightType" : 0,
+        "id" : "uiSoKO52I",
+        "intrinsicHeight" : 250,
+        "intrinsicWidth" : 352,
+        "left" : -1176,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "fmPdAbhdQ",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 168,
+        "visible" : true,
+        "width" : 352,
+        "widthType" : 0
+      }
+    ],
+    "guidesX" : [
+
+    ],
+    "guidesY" : [
+
+    ],
+    "id" : "fmPdAbhdQ",
+    "name" : null,
+    "originalid" : null,
+    "parentid" : null,
+    "tokens" : {
+
+    },
+    "tokensIndex" : [
+
+    ],
+    "visible" : false
+  },
+  "version" : 55
+}

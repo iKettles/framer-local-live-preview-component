@@ -1,0 +1,16 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"author": "Iain Kettles",
+	"version": "1.0.0",
+	"framer": {
+		"id": "ad9a1f44-e9fc-440f-a021-007e0ea8f59a"
+	}
+}
