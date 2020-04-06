@@ -11,6 +11,8 @@
 	"author": "Iain Kettles",
 	"version": "1.0.0",
 	"framer": {
-		"id": "ad9a1f44-e9fc-440f-a021-007e0ea8f59a"
-	}
+		"id": "ad9a1f44-e9fc-440f-a021-007e0ea8f59a",
+		"displayName": "Framer Local Live Preview"
+	},
+	"name": "@framer/iain.framer-local-live-preview"
 }
