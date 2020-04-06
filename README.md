@@ -1,4 +1,4 @@
-A component that provides the same functionality as Live Preview in [Framer Desktop](https://www.framer.com/) without requiring an internet connection or creating a tunnel between your machine and the cloud. This project covers 3 main use cases:
+A component that provides the same functionality as Live Preview without requiring an internet connection or creating a tunnel between your machine and the cloud. This project covers 3 main use cases:
 
 ## Restricted networks
 
@@ -30,7 +30,8 @@ See the [docs](https://github.com/iKettles/framer-local-live-preview) on how to 
 * Drop the `LivePreviewTarget` component into your project and ensure it’s placed within a frame you’re previewing
 * Set the server URL to what you see in the logs of the server, by default it's `http://localhost:8080`.
 * Set the project ID to something unique and URL friendly
-* Press Cmd + P/click the play button to preview your project (this preview needs to be open for the preview server to function)
-* If Instructions are set to show, you’ll see the URLs to access your project in the preview window. You can hide the instructions after
+* Press Cmd + P/click the play button to preview your project **(the in-app preview needs to be open for the preview server to function)**
+* If Instructions are set to show, you’ll see the URLs assigned to your project in the preview window. You can hide the instructions after.
+* Go to http://localhost:8000/my-unique-id to preview your project
 
-If you have any problems using this package, feel free to reach out to me directly on [Twitter](https://twitter.com/iKettles), on the [Framer Public Slack](https://framer.slack.com) or via the reg
+If you have any problems using this package, feel free to reach out to me directly on [Twitter](https://twitter.com/iKettles), on the [Framer Public Slack](https://framer.slack.com) or on [GitHub](https://github.com/iKettles/framer-local-live-preview-component)
