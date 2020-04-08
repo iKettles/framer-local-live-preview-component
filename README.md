@@ -1,4 +1,9 @@
-A component that provides the same functionality as Live Preview without requiring an internet connection or creating a tunnel between your machine and the cloud. This project covers 3 main use cases:
+**TLDR:**
+- Run `npx framer-local-live-preview` in a terminal
+- Drop this component into your prototype
+- Follow the instructions in the component to connect your prototype to the live preview server
+
+A component that provides the same functionality as Framer's live preview without requiring an internet connection or creating a tunnel between your machine and the cloud. This project covers 3 main use cases:
 
 ## Restricted networks
 

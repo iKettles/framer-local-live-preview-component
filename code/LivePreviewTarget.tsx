@@ -85,21 +85,27 @@ export function LivePreviewTarget(props) {
         <Frame {...props} style={instructionsStyle}>
             <div style={{ overflow: "scroll", width: "100%", height: "100%" }}>
                 <p>
-                    Place this component anywhere within the frame you want to
-                    preview.
+                    1. Check the documentation for this package to see how to
+                    start the live preview server. You need to start it before
+                    previewing your prototype
                 </p>
                 <p>
-                    {proxyServerHost ? "✅" : "❌"} Set the Live Preview Server
-                    URL (usually http://localhost:8080)
+                    2. Place this component anywhere within the frame you want
+                    to preview
                 </p>
                 <p>
-                    {prototypeIdentifier ? "✅" : "❌"} Set the Project ID to
-                    the path you want your project to be accessible from
+                    {proxyServerHost ? "✅" : "❌"} Set the live preview server
+                    URL in the property controls for this component
+                </p>
+                <p>
+                    {prototypeIdentifier ? "✅" : "❌"} Set the Project ID in
+                    the property controls to the path you want your project to
+                    be accessible from. It needs to be unique and URL friendly!
                 </p>
                 {proxyServerError ? (
                     <p style={errorMessageStyle}>
                         An error occurred communicating with the live preview
-                        server
+                        server. Try refreshing the preview window (⌘R)
                     </p>
                 ) : localhostUrl && localNetworkUrl ? (
                     <p>
