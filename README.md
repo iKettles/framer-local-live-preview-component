@@ -1,3 +1,6 @@
+**Note:**
+This component currently only supports Framer X51 and earlier. Due to changes in preview architecture in Framer Desktop, this component is not yet compatible
+
 **TLDR:**
 - Run `npx framer-local-live-preview` in a terminal
 - Drop this component into your prototype
