@@ -6,13 +6,11 @@
         "__class" : "CodeComponentNode",
         "aspectRatio" : null,
         "bottom" : null,
-        "centerAnchorX" : 0.66798418972332019,
-        "centerAnchorY" : 0.50343249427917625,
-        "children" : [
-
-        ],
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
         "clip" : true,
         "codeComponentIdentifier" : ".\/LivePreviewTarget.tsx_LivePreviewTarget",
+        "codeComponentPackageVersion" : null,
         "codeComponentProps" : {
           "prototypeIdentifier" : "my-project",
           "proxyServerHost" : "http:\/\/localhost:8080",
@@ -20,7 +18,7 @@
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
-        "deviceType" : null,
+        "duplicatedFrom" : null,
         "exportOptions" : [
 
         ],
@@ -34,10 +32,10 @@
         "fillType" : "color",
         "height" : 250,
         "heightType" : 0,
-        "id" : "uiSoKO52I",
+        "id" : "fO9J16wi8",
         "intrinsicHeight" : 250,
         "intrinsicWidth" : 352,
-        "left" : -1176,
+        "left" : -1212,
         "locked" : false,
         "name" : null,
         "opacity" : 1,
@@ -51,20 +49,24 @@
         "radiusPerCorner" : false,
         "radiusTopLeft" : 0,
         "radiusTopRight" : 0,
+        "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : 168,
+        "top" : 217,
         "visible" : true,
         "width" : 352,
         "widthType" : 0
       }
     ],
+    "disableBackdropFilters" : false,
+    "duplicatedFrom" : null,
     "guidesX" : [
 
     ],
     "guidesY" : [
 
     ],
+    "homeNodeId" : null,
     "id" : "fmPdAbhdQ",
     "name" : null,
     "originalid" : null,
@@ -77,5 +79,5 @@
     ],
     "visible" : false
   },
-  "version" : 55
+  "version" : 66
 }
