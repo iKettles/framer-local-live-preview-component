@@ -34,11 +34,11 @@ export function LivePreviewTarget(props) {
     const [proxyServerError, setProxyServerError] = React.useState(null)
     const [localhostUrl, setLocalhostUrl] = React.useState(null)
     const [localNetworkUrl, setLocalNetworkUrl] = React.useState(null)
+    const [additionalHostUrl, setAdditionalHostUrl] = React.useState(null)
     const registerTarget = async () => {
         try {
-            const response = await (await fetch(
-                `${proxyServerHost}/v1/proxy-target`,
-                {
+            const response = await (
+                await fetch(`${proxyServerHost}/v1/proxy-target`, {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
@@ -47,16 +47,18 @@ export function LivePreviewTarget(props) {
                         identifier: prototypeIdentifier,
                         url: window.location.host,
                     }),
-                }
-            )).json()
+                })
+            ).json()
             setProxyServerError(null)
             setLocalhostUrl(response.result.localhostUrl)
             setLocalNetworkUrl(response.result.localNetworkUrl)
+            setAdditionalHostUrl(response.result.additionalUrl || null)
         } catch (err) {
             console.error(err)
             setProxyServerError(err.message)
             setLocalhostUrl(null)
             setLocalNetworkUrl(null)
+            setAdditionalHostUrl(null)
         }
     }
 
@@ -134,6 +136,18 @@ export function LivePreviewTarget(props) {
                         >
                             {localNetworkUrl}
                         </a>
+                        {additionalHostUrl && (
+                            <>
+                                <br />
+                                <a
+                                    style={linkStyle}
+                                    href={additionalHostUrl}
+                                    target={"_blank"}
+                                >
+                                    {additionalHostUrl}
+                                </a>
+                            </>
+                        )}
                     </p>
                 ) : null}
             </div>
